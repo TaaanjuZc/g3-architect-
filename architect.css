@@ -107,4 +107,36 @@ main {
 
 .teams-container {
   display: flex;
+  align-items: center;
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.teams-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.teams-title {
+  font-size: 2.8rem;
+}
+
+.teams-title .quick-l {
+  color: #727272;
+  font-weight: 500;
+}
+
+.teams-title .t-features {
+  color: #FF900E;
+  font-weight: 700;
+}
+
+.teams-description {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
 }
